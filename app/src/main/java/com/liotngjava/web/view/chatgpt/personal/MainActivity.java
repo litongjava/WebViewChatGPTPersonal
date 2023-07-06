@@ -7,8 +7,6 @@ import android.webkit.WebView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
 
-import com.liotngjava.web.view.chatgpt.personal.R;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
       .build();
     intent.launchUrl(MainActivity.this, Uri.parse(url));
   }
+
   @Override
   protected void onResume() {
     super.onResume();

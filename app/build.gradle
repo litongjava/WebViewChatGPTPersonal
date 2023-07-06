@@ -6,7 +6,7 @@ android {
   compileSdk 33
 
   defaultConfig {
-    applicationId "com.liotngjava.web.view.chatgpt.work"
+    applicationId "com.liotngjava.web.view.chatgpt.personal"
     minSdk 21
     targetSdk 33
     versionCode 1
